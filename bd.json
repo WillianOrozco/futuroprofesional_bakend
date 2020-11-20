@@ -36,9 +36,15 @@
   "tests": [
     {
       "id": 1,
+      "fecha": "10/11/2020",
       "descripcion": "Según tus respuestas en el anterior test hemos logrado deducir que eres una persona capaz de liderar y llevar tu equipo a la gloria, aunque tengas que hacerlo por ti mismo, siempre motivas a los demás hacia la autosuperación, eres muy independiente y eres capaz de sobrellevar todo por ti mismo si es el caso, eres muy positivo y perspicaz a la hora de realizar actividades, tienes gran valor y eres muy sociable, tienes gran capacidad en las matemáticas y en la lectura, además tienes mucho interés en temas variados, esto te llevará a grandes logros.",
       "profesion": "Con base en tus resultados, queremos recomendarte las carreras de ",
-      "id_usuario": ""
+      "carreras":{
+        "ies":"Ingenieria en Software",
+        "gt": "Diseño gráfico",
+        "cc":"Construcción Civil"
+      },
+      "id_usuario": 1
     }
   ],
   "respuestas": [
@@ -59,7 +65,7 @@
   ],
   "profesiones": [
     {
-      "id_area": "matematicas",
+      "id_area": "Ciencias",
       "arq": "Arquitectura",
       "lem": "Licenciatura en Matemáticas",
       "ies": "Ingenieria en Software",
@@ -68,13 +74,22 @@
       "cont": "Contaduría"
     },
     {
-      "id_area": "lengua",
+      "id_area": "Idiomas",
       "pdm": "Periodismo",
       "fls": "Filosofía",
       "gt": "Guía turístico",
       "auxv": "Auxiliar de vuelo",
       "rdt": "Redactor",
       "gde": "Gestión de Eventos"
+    },
+    {
+      "id_area": "Creatividad",
+      "pdm": "Artes",
+      "fls": "Cine",
+      "gt": "Diseño gráfico",
+      "auxv": "Publicidad",
+      "rdt": "Arquitectura",
+      "gde": "Diseño de modas"
     }
   ]
 }
