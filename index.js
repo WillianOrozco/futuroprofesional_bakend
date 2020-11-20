@@ -3,7 +3,7 @@ const app = express();
 const usuario = require('./routes/usuario');
 const respuestas = require('./routes/respuestas');
 // Ajustes
-app.set('port',3001);
+app.set('port', process.env.PORT || 3001);
 
 // Middlewares
 app.use(express.json());
