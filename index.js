@@ -1,19 +1,17 @@
-const express = require('express');
-const app = express();
-const usuario = require('./routes/usuario');
-const respuestas = require('./routes/respuestas');
-// Ajustes
-app.set('port', process.env.PORT || 3001);
+const jsonServer = require("json-server");
+//const cors = require("cors");
+const server = jsonServer.create();
+const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults();
 
-// Middlewares
-app.use(express.json());
+server.use(middlewares);
+server.use(router);
 
-// Routes//
-app.use('/api',usuario);
-app.use('/api',respuestas);
+//app.use(cors({origin: '*'}));
+//app.use(cors({origin: 'https://kuepj-3000.sse.codesandbox.io'}));
+ 
+var port = process.env.PORT || 3001;
 
-// Ajustes del servidor
-app.listen(app.get('port'), () => {
-  console.log(`Servidor corriendo en el puerto ${app.get('port')}`);
+server.listen(port, () => {
+  console.log("JSON Server ejecutandose");
 });
-
