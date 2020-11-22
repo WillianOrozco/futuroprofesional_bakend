@@ -17,27 +17,5 @@
       "contraseña": "25f9e794323b453885f5181f1b624d0b"
     }
   ],
-  "tests": [
-    {
-      "id_usuario": 1,
-      "id": 1,
-      "fecha": "10/11/2020",
-      "descripcion": "Según tus respuestas en el anterior test hemos logrado deducir que eres una persona capaz de liderar y llevar tu equipo a la gloria, aunque tengas que hacerlo por ti mismo, siempre motivas a los demás hacia la autosuperación, eres muy independiente y eres capaz de sobrellevar todo por ti mismo si es el caso, eres muy positivo y perspicaz a la hora de realizar actividades, tienes gran valor y eres muy sociable, tienes gran capacidad en las matemáticas y en la lectura, además tienes mucho interés en temas variados, esto te llevará a grandes logros.",
-      "profesion": "Con base en tus resultados, queremos recomendarte las carreras de Test 1 Ingenieria en Software Diseño gráfico"
-    },
-    {
-      "id_usuario": 4,
-      "id": 2,
-      "fecha": "01/10/2020",
-      "descripcion": "Según tus respuestas en el anterior test hemos logrado deducir que eres una persona capaz de liderar y llevar tu equipo a la gloria, aunque tengas que hacerlo por ti mismo, siempre motivas a los demás hacia la autosuperación, eres muy independiente y eres capaz de sobrellevar todo por ti mismo si es el caso, eres muy positivo y perspicaz a la hora de realizar actividades, tienes gran valor y eres muy sociable, tienes gran capacidad en las matemáticas y en la lectura, además tienes mucho interés en temas variados, esto te llevará a grandes logros.",
-      "profesion": "Con base en tus resultados, queremos recomendarte las carreras de Test 2 Ingenieria en Software Diseño gráfico"
-    },
-    {
-      "id_usuario": 1,
-      "id": 3,
-      "fecha": "15/09/2020",
-      "descripcion": "Según tus respuestas en el anterior test hemos logrado deducir que eres una persona capaz de liderar y llevar tu equipo a la gloria, aunque tengas que hacerlo por ti mismo, siempre motivas a los demás hacia la autosuperación, eres muy independiente y eres capaz de sobrellevar todo por ti mismo si es el caso, eres muy positivo y perspicaz a la hora de realizar actividades, tienes gran valor y eres muy sociable, tienes gran capacidad en las matemáticas y en la lectura, además tienes mucho interés en temas variados, esto te llevará a grandes logros.",
-      "profesion": "Con base en tus resultados, queremos recomendarte las carreras de Test 3 Ingenieria en Software Diseño gráfico"
-    }
-  ]
+  "Test": []
 }
