@@ -21,16 +21,22 @@
     {
       "id": 1,
       "fecha": "23/11/2020",
+      "descripcion": "Ser analítico es parte de tu esencia, el diseño y construcción de mecanismos para satisfacer necesidades es parte de tu interés ya que facilitarías la vida diaria. El manejo de materiales para crear algo original y que mejore los avances científicos.",
+      "profesion": "Ingeniería civil, Ingeniero Arquitecto, Ingeniería Industrial y de Sistemas, Ingeniería en Computación.",
       "id_usuario": 2
     },
     {
       "id": 2,
       "fecha": "22/10/2020",
+      "descripcion": "Tu desarrollo se logrará cuando interactúes con seres vivos y organismos. Te interesa conocer cómo es el funcionamiento de diversas sustancias, si es necesario, buscar su equilibrio y restablecer el funcionamiento previo a una alteración. La modificación y preservación de componentes orgánicos y naturales son también parte de tu interés.",
+      "profesion": "Biología, Química, Ecología, Medicina, Veterinaria, Biotecnología, Ciencias Naturales.",
       "id_usuario": 1
     },
     {
       "id": 3,
       "fecha": "23/10/2020",
+      "descripcion": "Te apasiona todo aquello que se encuentra relacionado con el arte, la música, lo bello y lo estético. Es de suma importancia tu sensibilidad y tu imaginación. Para comunicar tus ideas y emociones utilizas tu creatividad de manera visual o auditiva pero siempre son atractivas.",
+      "profesion": "Diseño Ambiental, Arquitectura, Ciencias y técnicas de la Comunicación, Artes, Comunicación Gráfica.",
       "id_usuario": 1
     }
   ]
